@@ -226,7 +226,7 @@ footer b{font-family:var(--font-label);letter-spacing:.1em;color:var(--fg)}
       <div class="date-big"><span>10/28</span><small>(水)</small></div>
       <div class="date-meta"><b>チルキャリメディカル 第1回</b>18:00〜20:00 ／ オンライン開催<br>スマホからでも参加できます</div>
     </div>
-    <a class="btn btn-block" href="#entry">無料で参加する <small>1分で申込完了</small></a>
+    <a class="btn btn-block" href="https://docs.google.com/forms/d/e/1FAIpQLScgKZ8FAKW9_2R2QDnBoLpDpxM6fFap8rm38Yuoo_tPlID_Jw/viewform" target="_blank" rel="noopener">無料で参加する <small>1分で申込完了</small></a>
     <p class="note">毎月開催予定。まずは第1回からスタート！</p>
     <p class="next-note"><b>第1回はオンライン開催。</b>次回以降は対面でも開催します。</p>
     <ul class="pro-row">
@@ -386,18 +386,8 @@ footer b{font-family:var(--font-label);letter-spacing:.1em;color:var(--fg)}
     <p class="eyebrow">Entry</p>
     <h2>10月28日(水)、<br>オンラインで待ってるね！</h2>
     <p class="lead">1分で終わる申込フォームです。参加は無料。気軽にどうぞ！</p>
-    <form class="form" id="entry-form" novalidate>
-      <div class="field"><label for="f-name">お名前<i>必須</i></label><input id="f-name" name="name" type="text" autocomplete="name" placeholder="例）山田 花子"></div>
-      <div class="field"><label for="f-school">学校名<i>必須</i></label><input id="f-school" name="school" type="text" placeholder="例）〇〇医療専門学校"></div>
-      <div class="field"><label for="f-year">学年<i>必須</i></label>
-        <select id="f-year" name="year"><option value="">選択してください</option><option>1年生</option><option>2年生</option><option>3年生</option><option>4年生</option><option>その他</option></select></div>
-      <div class="field"><label for="f-course">学んでいる分野<i>必須</i></label>
-        <select id="f-course" name="course"><option value="">選択してください</option><option>理学療法（PT）</option><option>作業療法（OT）</option><option>言語聴覚（ST）</option><option>柔道整復</option><option>鍼灸</option><option>あん摩マッサージ指圧</option><option>歯科（衛生士・技工士など）</option><option>看護</option><option>薬剤</option><option>医学</option><option>その他</option></select></div>
-      <div class="field"><label for="f-mail">メールアドレス<i>必須</i></label><input id="f-mail" name="email" type="email" autocomplete="email" placeholder="例）example@mail.com"></div>
-      <p class="agree">お預かりした個人情報は、イベントのご案内と運営のみに使用します。</p>
-      <button class="btn btn-block" type="submit">無料で参加を申し込む</button>
-      <p class="sent" id="sent" role="status">これはデザイン確認用のプレビューです。実際の送信先は未設定のため、入力内容は送信されていません。</p>
-    </form>
+    <a class="btn btn-block" href="https://docs.google.com/forms/d/e/1FAIpQLScgKZ8FAKW9_2R2QDnBoLpDpxM6fFap8rm38Yuoo_tPlID_Jw/viewform" target="_blank" rel="noopener">申込フォームへ進む（無料）</a>
+    <p class="agree">お預かりした個人情報は、イベントのご案内と運営のみに使用します。</p>
   </div>
 </section>
 
@@ -421,14 +411,9 @@ footer b{font-family:var(--font-label);letter-spacing:.1em;color:var(--fg)}
   </div>
 </footer>
 
-<div class="sticky"><a class="btn" href="#entry">無料で参加する（10/28 オンライン）</a></div>
+<div class="sticky"><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScgKZ8FAKW9_2R2QDnBoLpDpxM6fFap8rm38Yuoo_tPlID_Jw/viewform" target="_blank" rel="noopener">無料で参加する（10/28 オンライン）</a></div>
 
-<script>
-document.getElementById('entry-form').addEventListener('submit',function(e){
-  e.preventDefault();
-  document.getElementById('sent').classList.add('on');
-});
-</script>
+
 
 </body>
 </html>
